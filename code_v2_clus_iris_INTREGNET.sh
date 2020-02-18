@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # This version computes the interaction and binding coordinates for core Enh/Pro and first neighbors (e.g. core 2 -> neighbor1 -> core 1) where first neighbor is also regulated by core TF
+# Script for generating core network
 
 echo "In this version we also compute Accessible Enh and Pro interactions with -f 0.5 and -F 0.5 mean 50% of TF peak is within DNase peak OR 50% of DNase peak is within ChIP-seq peak"
 
